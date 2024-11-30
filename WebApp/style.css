@@ -2,7 +2,7 @@
 .Button_Container {
     height: 100vh; /* Full height of the viewport */
     width: 100vw;  /* Full width of the viewport */
-    display: flex; /* Enable flexbox layout */
+    /* display: flex; Enable flexbox layout */
     justify-content: center; /* Center the button horizontally */
     align-items: center; /* Center the button vertically */
     background-color: #f0f0f0; /* Background color for visibility */
