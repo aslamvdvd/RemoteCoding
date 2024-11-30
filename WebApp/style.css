@@ -1,0 +1,28 @@
+/* This will center the button container in the viewport */
+.Button_Container {
+    height: 100vh; /* Full height of the viewport */
+    width: 100vw;  /* Full width of the viewport */
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center the button horizontally */
+    align-items: center; /* Center the button vertically */
+    background-color: #f0f0f0; /* Background color for visibility */
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+/* Style for the button */
+.Button {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: purple; /* Green background */
+    color: white; /* White text */
+    border-radius: 5px; /* Rounded corners */
+    border: 2px solid blue;
+    
+}
+
+/* Optional: Add hover effect */
+.Button:hover {
+    background-color: purple;
+}
